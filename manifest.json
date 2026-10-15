@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "关闭所有1024tab",
+  "version": "1.0.0",
+  "description": "一键关闭所有 https://www.t66y.com/htm_data/ 前缀的标签页，可通过点击插件图标或右键菜单触发。",
+  "icons": {
+    "48": "icon.png",
+    "96": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "notifications"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "关闭所有1024tab",
+    "default_icon": {
+      "48": "icon.png",
+      "96": "icon.png"
+    }
+  }
+}
